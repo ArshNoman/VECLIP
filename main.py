@@ -51,6 +51,14 @@ def p_cube(side_length):
     print(side_length*4)
 
 
+def a_triangle(base_length, height):
+    print((base_length*height)/2)
+
+
+def p_triangle(slanted_length, base_length):
+    print((slanted_length*2)+base_length)
+
+
 def a_rectangle(shortside_length, longside_length):
     print(shortside_length * longside_length)
 
@@ -77,5 +85,18 @@ def a_circle(radius):
 
 def p_circle(radius):
     print((2*pi)*radius)
+
+
+def sa_cuboid(width, length, height):
+    print(2*((width*length)+(width*height)+(height*length)))
+
+
+def sa_cylinder(radius, height):
+    print(2*pi*radius(radius+height))
+
+
+def v_triangularprism(length, base, height):
+    print(length*base*height)
+
 
 p_circle(5)
