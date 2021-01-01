@@ -43,11 +43,11 @@ def cube(number):
 # -- Geometric functions --
 
 
-def a_cube(side_length):
+def a_square(side_length):
     print(side_length**2)
 
 
-def p_cube(side_length):
+def p_square(side_length):
     print(side_length*4)
 
 
@@ -83,7 +83,7 @@ def a_circle(radius):
     print((radius**2)*pi)
 
 
-def p_circle(radius):
+def c_circle(radius):
     print((2*pi)*radius)
 
 
@@ -98,5 +98,3 @@ def sa_cylinder(radius, height):
 def v_triangularprism(length, base, height):
     print(length*base*height)
 
-
-p_circle(5)

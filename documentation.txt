@@ -1,14 +1,73 @@
 Welcome to VECLIP Official documentation 
-Project start : 1 - January - 2021
+
+== Basic Operations == 
+
+add(number1, number2)::
+	Takes 2 parameters, integers only, and adds them together.
+
+substract(number1, number2)::
+	Takes 2 parameters, integers only, and substracts the second parameter from the first parameter.
+	
+multiply(number1, number2)::
+	Takes 2 parameters, integers only, and multiplies them together.
+
+divide(number1, number2)::
+	Takes 2 parameters, integers only, and divides the second parameter from the first parameter, returns a float.
 
 
-Basic operations:
+* * * * * * * * * *
 
-add(number1, number2): 
-Takes 2 parameters and adds them together.
+== Functions with exponents ==
 
-subtract(number1, number2):
-Takes 2 parameters and substracts number2 from number1.
+sqr(number)::
+	Returns the squared value of 'number'.
 
-multiply(number1, number2):
-Takes 2 parameters and multiplies them together.
+sqrt(number)::
+	Returns the square root value of 'number'.
+
+cube(number)::
+	Returns the cubed value of 'number'
+
+* * * * * * * * * *
+
+== Geometry ==
+
+a_square(side_length)::
+	Returns area of a square, takes in one length of the square's side as a parameter.
+
+p_square(side_length)::
+	Returns perimeter of a square, takes in one length fo the square's side as a parameter.
+
+a_triangle(base_length, height)::
+	Returns area of a triangle, takes the base length and height of the triangle as parameters.
+
+p_triangle(slanted_length, base_length)::
+	Returns the perimeter of a triangle, takes the side lengths and base length of the triangle as parameters.
+
+a_rectangle(shortside_length, longside_length)::
+	Returns the area of a rectangle, takes the 2 parallel side lengths of the rectangle as parameters.
+
+p_rectangle(shortside_length, longside_length)::
+	Returns the perimeter of a rectable, takes the 2 parallel side lengths of the rectangle as parameters.     
+
+dgnl_square(side_length)::
+	Returns the diagnoal length of a square, takes in a side length as a parameter.    
+
+def dgnl_rectangle(shortside_length, longside_length):
+	Returns the diagonal length of a rectangle, takes the 2 parallel side lengths of the rectangle as parameters.
+
+def a_circle(radius)::
+	Returns the area of a circle with the radius as a given parameter.
+
+def c_circle(radius)::
+	Returns the cirucmference of a circle with the radius as a given parameter.
+
+def sa_cuboid(width, length, height)::
+	Return the surface area of a cubiod with 3 given parameters, the width, length and height. 
+
+def sa_cylinder(radius, height)::
+	Returns the surface area of a cylinder with 2 parameters, the radius and height of the cylinder.
+
+def v_triangularprism(length, base, height)::
+	Returns the volume of a triangular prism with the length, base and height of the triangular prism as parameters.
+
