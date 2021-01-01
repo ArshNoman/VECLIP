@@ -1,0 +1,14 @@
+Welcome to VECLIP Official documentation 
+Project start : 1 - January - 2021
+
+
+Basic operations:
+
+add(number1, number2): 
+Takes 2 parameters and adds them together.
+
+subtract(number1, number2):
+Takes 2 parameters and substracts number2 from number1.
+
+multiply(number1, number2):
+Takes 2 parameters and multiplies them together.
