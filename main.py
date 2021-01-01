@@ -8,21 +8,39 @@ pi = 3.14159265359
 
 
 def add(number1, number2):
+    if isinstance(number1 or number2, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(number1 + number2)
 
 def substract(number1, number2):
+    if isinstance(number1 or number2, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(number1 - number2)
 
 def multiply(number1, number2):
+    if isinstance(number1 or number2, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(number1 * number2)
 
 def divide(number1, number2):
+    if isinstance(number1 or number2, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(number1 / number2)  # Returns a float
 
 # -- Exponential operations --
 
+def power(base, exponent):
+    if isinstance(base or exponent, str):
+        raise ValueError("strings cannot be taken as a parameter")
+    b = base
+    for x in range(1, exponent):
+        base = b*base
+
+    print(base)
 
 def sqr(number):
+    if isinstance(number, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(number * number)
 
 def sqrt(number):
@@ -31,6 +49,8 @@ def sqrt(number):
     print(number**0.5)  # Returns a float
 
 def cube(number):
+    if isinstance(number, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(number**3)
 
 # will add cube root
@@ -39,45 +59,72 @@ def cube(number):
 
 
 def a_square(side_length):
+    if isinstance(side_length, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(side_length**2)
 
 def p_square(side_length):
+    if isinstance(side_length, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(side_length*4)
 
 def a_triangle(base_length, height):
+    if isinstance(base_length or height, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print((base_length*height)/2)
 
 def p_triangle(slanted_length, base_length):
+    if isinstance(base_length or slanted_length, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print((slanted_length*2)+base_length)
 
 def a_rectangle(shortside_length, longside_length):
+    if isinstance(shortside_length or longside_length, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(shortside_length * longside_length)
 
 def p_rectangle(shortside_length, longside_length):
+    if isinstance(shortside_length or longside_length, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print((shortside_length*2)+(longside_length*2))
 
 def dgnl_square(side_length):
+    if isinstance(side_length, str):
+        raise ValueError("strings cannot be taken as a parameter")
     c = (side_length**2)*2
     print(c**0.5)
 
 def dgnl_rectangle(shortside_length, longside_length):
+    if isinstance(shortside_length or longside_length, str):
+        raise ValueError("strings cannot be taken as a parameter")
     a = shortside_length**2
     b = longside_length**2
     c = a + b
     print(c**0.5)
 
 def a_circle(radius):
+    if isinstance(radius, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print((radius**2)*pi)
 
 def c_circle(radius):
+    if isinstance(radius, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print((2*pi)*radius)
 
 def sa_cuboid(width, length, height):
+    if isinstance(length or width or height, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(2*((width*length)+(width*height)+(height*length)))
 
 def sa_cylinder(radius, height):
+    if isinstance(radius or height, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(2*pi*radius(radius+height))
 
 def v_triangularprism(length, base, height):
+    if isinstance(length or base or height, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(length*base*height)
 
+#  20 functions in day one - lazyyy :(:( -
