@@ -57,22 +57,28 @@ dgnl_rectangle(shortside_length, longside_length)::
 	Returns the diagonal length of a rectangle, takes the 2 parallel side lengths of the rectangle as parameters.
 
 a_circle(radius)::
-	Returns the area of a circle with the radius of the circle as a given parameter.
+	Returns the area of a circle with the radius of the figure as a given parameter.
 
 c_circle(radius)::
-	Returns the cirucmference of a circle with the radius of the circle as a given parameter.
+	Returns the cirucmference of a circle with the radius of the shape as a given parameter.
 
-def v_sphere(radius)::
+v_sphere(radius)::
     Returns the volume of a sphere with the radius of the sphere as a given parameter.
 
-def sa_circle(radius)::
-    Returns the surface area of the sphere with the radius of the sphere as a given parameter.
+sa_circle(radius)::
+    Returns the surface area of the sphere with the radius of the shape as a given parameter.
 
 sa_cuboid(width, length, height)::
 	Return the surface area of a cubiod with 3 given parameters, the width, length and height. 
 
 sa_cylinder(radius, height)::
 	Returns the surface area of a cylinder with 2 parameters, the radius and height of the cylinder.
+
+sa_rightcylindrical_triangle(circumference, slanted_height)::
+    Returns the surface area of a right cylindrical-triangle with the circumference and slanted height of the figure as parameters.
+
+v_rightcylindrical_cone(radius, height)::
+    Returns the volume of a right cylindrical cone with the radius and height of the figure as parameters.
 
 v_triangularprism(length, base, height)::
 	Returns the volume of a triangular prism with the length, base and height of the triangular prism as parameters.
