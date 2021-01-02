@@ -65,6 +65,9 @@ c_circle(radius)::
 def v_sphere(radius)::
     Returns the volume of a sphere with the radius of the sphere as a given parameter.
 
+def sa_circle(radius)::
+    Returns the surface area of the sphere with the radius of the sphere as a given parameter.
+
 sa_cuboid(width, length, height)::
 	Return the surface area of a cubiod with 3 given parameters, the width, length and height. 
 
