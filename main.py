@@ -36,8 +36,6 @@ def power(base, exponent):
     for x in range(1, exponent):
         base = b*base
 
-    print(base)
-
 def sqr(number):
     if isinstance(number, str):
         raise ValueError("strings cannot be taken as a parameter")
@@ -112,6 +110,11 @@ def c_circle(radius):
         raise ValueError("strings cannot be taken as a parameter")
     print((2*pi)*radius)
 
+def v_sphere(radius):
+    if isinstance(radius, str):
+        raise ValueError("strings cannot be taken as a parameter")
+    print(4/3*pi*(radius*radius*radius))
+
 def sa_cuboid(width, length, height):
     if isinstance(length or width or height, str):
         raise ValueError("strings cannot be taken as a parameter")
@@ -128,3 +131,5 @@ def v_triangularprism(length, base, height):
     print(length*base*height)
 
 #  20 functions in day one - lazyyy :(:( -
+
+v_sphere(5)
