@@ -53,7 +53,7 @@ p_rectangle(shortside_length, longside_length)::
 dgnl_square(side_length)::
 	Returns the diagnoal length of a square, takes in a side length as a parameter.    
 
-dgnl_rectangle(shortside_length, longside_length):
+dgnl_rectangle(shortside_length, longside_length)::
 	Returns the diagonal length of a rectangle, takes the 2 parallel side lengths of the rectangle as parameters.
 
 a_circle(radius)::
@@ -70,6 +70,7 @@ sa_cuboid(width, length, height)::
 
 sa_cylinder(radius, height)::
 	Returns the surface area of a cylinder with 2 parameters, the radius and height of the cylinder.
+
 v_triangularprism(length, base, height)::
 	Returns the volume of a triangular prism with the length, base and height of the triangular prism as parameters.
 

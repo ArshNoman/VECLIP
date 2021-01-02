@@ -115,6 +115,11 @@ def v_sphere(radius):
         raise ValueError("strings cannot be taken as a parameter")
     print(4/3*pi*(radius*radius*radius))
 
+def sa_circle(radius):
+    if isinstance(radius, str):
+        raise ValueError("strings cannot be taken as a parameter")
+    print(4*pi*(radius*radius))
+
 def sa_cuboid(width, length, height):
     if isinstance(length or width or height, str):
         raise ValueError("strings cannot be taken as a parameter")
