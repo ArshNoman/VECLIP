@@ -130,6 +130,4 @@ def v_triangularprism(length, base, height):
         raise ValueError("strings cannot be taken as a parameter")
     print(length*base*height)
 
-#  20 functions in day one - lazyyy :(:( -
-
-v_sphere(5)
+#  21 functions
