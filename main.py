@@ -130,9 +130,19 @@ def sa_cylinder(radius, height):
         raise ValueError("strings cannot be taken as a parameter")
     print(2*pi*radius(radius+height))
 
+def sa_rightcylindrical_triangle(circumference, slanted_height):
+    if isinstance(circumference or slanted_height, str):
+        raise ValueError("strings cannot be taken as a parameter")
+    print(1/2*circumference*slanted_height)
+
+def v_rightcylindrical_cone(radius, height):
+    if isinstance(radius or height, str):
+        raise ValueError("strings cannot be taken as a parameter")
+    print(1/3*pi*(radius**2)*height)
+
 def v_triangularprism(length, base, height):
     if isinstance(length or base or height, str):
         raise ValueError("strings cannot be taken as a parameter")
     print(length*base*height)
 
-#  21 functions
+#  25 functions
