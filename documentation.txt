@@ -28,6 +28,9 @@ sqrt(number)::
 cube(number)::
 	Returns the cubed value of 'number'
 
+cubert(number)::
+	Returns the cube root value of 'number'.
+
 * * * * * * * * * *
 
 == Geometry ==
