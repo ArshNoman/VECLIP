@@ -20,16 +20,16 @@ divide(number1, number2)::
 == Functions with exponents ==
 
 sqr(number)::
-	Returns the squared value of 'number'.
+	Returns the squared value of parameter, 'number'.
 
 sqrt(number)::
-	Returns the square root value of 'number'.
+	Returns the square root value of parameter, 'number'.
 
 cube(number)::
-	Returns the cubed value of 'number'
+	Returns the cubed value of parameter, 'number'
 
 cubert(number)::
-	Returns the cube root value of 'number'.
+	Returns the cube root value of parameter, 'number'.
 
 * * * * * * * * * *
 
