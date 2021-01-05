@@ -89,16 +89,13 @@ def p_rectangle(shortside_length, longside_length):
 def dgnl_square(side_length):
     if isinstance(side_length, str):
         raise ValueError("strings cannot be taken as a parameter")
-    c = (side_length**2)*2
-    print(c**0.5)
+    print(((side_length**2)*2)**0.5)
 
 def dgnl_rectangle(shortside_length, longside_length):
     if isinstance(shortside_length or longside_length, str):
         raise ValueError("strings cannot be taken as a parameter")
-    a = shortside_length**2
-    b = longside_length**2
-    c = a + b
-    print(c**0.5)
+    a, b = shortside_length**2, longside_length**2
+    print((a+b)**0.5)
 
 def a_circle(radius):
     if isinstance(radius, str):
