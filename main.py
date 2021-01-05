@@ -42,21 +42,29 @@ def power(base, exponent):
 def sqr(number):
     if isinstance(number, str):
         raise ValueError("strings cannot be taken as a parameter")
+    elif isinstance(number, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(number * number)
 
 def sqrt(number):
     if number < 0:
         raise ValueError("function 'sqrt' does not accept negative values")
+    elif isinstance(number, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(number**0.5)  # Returns a float
 
 def cube(number):
     if isinstance(number, str):
+        raise ValueError("strings cannot be taken as a parameter")
+    elif isinstance(number, str):
         raise ValueError("strings cannot be taken as a parameter")
     print(number**3)
 
 def cubert(number):
     if number < 0:
         raise ValueError("function 'sqrt' does not accept negative values")
+    elif isinstance(number, str):
+        raise ValueError("strings cannot be taken as a parameter")
     print(number ** (1. / 3))
 
 # -- Geometric functions --
