@@ -35,9 +35,19 @@ def divide(number1, number2):
 def power(base, exponent):
     if isinstance(base or exponent, str):
         raise ValueError("strings cannot be taken as a parameter")
+    is_negative = False
     b = base
-    for x in range(1, exponent):
-        base = b*base
+    if exponent < 0:
+        is_negative = True
+        for x in range(1, abs(exponent)):
+            b = b*base
+    else:
+        for x in range(1, exponent):
+            b = b*base
+    if not is_negative:
+        print(b)
+    else:
+        print(f"1/{b}")
 
 def sqr(number):
     if isinstance(number, str):
