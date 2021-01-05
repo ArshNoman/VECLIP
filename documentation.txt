@@ -20,16 +20,22 @@ divide(number1, number2)::
 == Functions with exponents ==
 
 sqr(number)::
-	Returns the squared value of parameter, 'number'.
+	Returns the squared value of parameter, 'number'. With this function, the exponent is positive, if in need of a
+	negative squared value, please see "power()".
 
 sqrt(number)::
 	Returns the square root value of parameter, 'number'.
 
 cube(number)::
-	Returns the cubed value of parameter, 'number'
+	Returns the cubed value of parameter, 'number'.  With this function, the exponent is positive, if in need of a
+	negative squared value, please see "power()".
 
 cubert(number)::
 	Returns the cube root value of parameter, 'number'.
+
+power(base, exponent)::
+    Returns the value of the first parameter, base, to the power of the second parameter, exponent. The exponent parameter
+    can be negative, but the returned value will be in a fraction.
 
 * * * * * * * * * *
 
