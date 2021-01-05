@@ -54,7 +54,10 @@ def cube(number):
         raise ValueError("strings cannot be taken as a parameter")
     print(number**3)
 
-# will add cube root
+def cubert(number):
+    if number < 0:
+        raise ValueError("function 'sqrt' does not accept negative values")
+    print(number ** (1. / 3))
 
 # -- Geometric functions --
 
@@ -145,4 +148,4 @@ def v_triangularprism(length, base, height):
         raise ValueError("strings cannot be taken as a parameter")
     print(length*base*height)
 
-#  25 functions
+#  26 functions
