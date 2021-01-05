@@ -3,6 +3,9 @@
 # -- Variables --
 
 pi = 3.14159265359
+phi = 1.618033988749895
+eulars_number = 2.71828
+wallis_constant = 2.094551481542326
 
 # -- Basic operations --
 
