@@ -99,5 +99,6 @@ v_triangularprism(length, base, height)::
 exterior_angle(i_angle1, i_angle2)::
     Takes in the other 2 interior angles of the triangle as parameters and returns the value of the exterior angle.
 
-hypotenuse(a, b)::
+pythagorean(a, b)::
     Returns the hypotenuse value of the triangle with the other 2 sides given as parameters.
+
