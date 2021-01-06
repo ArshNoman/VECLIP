@@ -105,11 +105,11 @@ pythagorean(a, b)::
 reverse_pythagorean(hypotenuse, x)::
     Takes the hypotenuse and the other given line length as parameters and returns the third line's length.
 
-def deg_sin(x)::
+deg_sin(x)::
     Returns the DEGREE sin value of the parameter x.
 
-def deg_cos(x)::
+deg_cos(x)::
     Returns the DEGREE cosine value of the parameter x.
 
-def deg_tan(x):
+deg_tan(x):
     Returns the DEGREE tangent value of the parameter x.
