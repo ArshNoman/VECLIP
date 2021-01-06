@@ -193,4 +193,7 @@ def deg_cos(x):
 def deg_tan(x):
     print(math.tan(math.radians(x)))
 
-#  35 functions
+def rad_sin(x):
+    print(math.sin(x))
+
+#  38 functions
