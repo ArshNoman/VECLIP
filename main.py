@@ -177,7 +177,7 @@ def exterior_angle(i_angle1, i_angle2):
         raise ValueError("the total value is larger than 180 degrees")
     print(i_angle2+i_angle1)
 
-def hypotenus(a, b):
+def hypotenuse(a, b):
     sqrt((a*a)+(b*b))
 
 #  28 functions
