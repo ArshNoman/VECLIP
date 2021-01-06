@@ -1,5 +1,7 @@
 # Very Easy Calculator Library In Python (VECLIP)
 
+import math
+
 # -- Variables --
 
 pi = 3.14159265359
@@ -182,5 +184,14 @@ def pythagorean(a, b):
 
 def reverse_pythagorean(hypotenuse, x):
     sqrt((hypotenuse*hypotenuse)-(x*x))
+
+def deg_sin(x):
+    print(math.sin(math.radians(x)))
+
+def deg_cos(x):
+    print(math.cos(math.radians(x)))
+
+def deg_tan(x):
+    print(math.tan(math.radians(x)))
 
 #  29 functions
