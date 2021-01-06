@@ -166,4 +166,16 @@ def v_triangularprism(length, base, height):
         raise ValueError("strings cannot be taken as a parameter")
     print(length*base*height)
 
-#  26 functions
+# -- Trigonometry Functions --
+
+def exterior_angle(i_angle1, i_angle2):
+    if i_angle2 < 0 or i_angle1 < 0:
+        raise ValueError("function 'exterior_angle' does not accept negative values")
+    elif isinstance(i_angle1 or i_angle2, str):
+        raise ValueError("strings cannot be taken as a parameter")
+    elif (i_angle1 + i_angle2) > 180:
+        raise ValueError("the total value is larger than 180 degrees")
+    print(i_angle2+i_angle1)
+
+#  27 functions
+
