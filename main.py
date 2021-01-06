@@ -30,7 +30,7 @@ def multiply(number1, number2):
 def divide(number1, number2):
     if isinstance(number1 or number2, str):
         raise ValueError("strings cannot be taken as a parameter")
-    print(number1 / number2)  # Returns a float
+    print(number1 / number2)
 
 # -- Exponential operations --
 
@@ -120,8 +120,7 @@ def dgnl_square(side_length):
 def dgnl_rectangle(shortside_length, longside_length):
     if isinstance(shortside_length or longside_length, str):
         raise ValueError("strings cannot be taken as a parameter")
-    a, b = shortside_length**2, longside_length**2
-    print((a+b)**0.5)
+    print(((shortside_length**2)+(longside_length**2))**0.5)
 
 def a_circle(radius):
     if isinstance(radius, str):
@@ -194,4 +193,4 @@ def deg_cos(x):
 def deg_tan(x):
     print(math.tan(math.radians(x)))
 
-#  29 functions
+#  35 functions
