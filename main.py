@@ -199,5 +199,7 @@ def rad_sin(x):
 def rad_cos(x):
     print(math.cos(x))
 
+def rad_tan(x):
+    print(math.tan(x))
 
 #  38 functions
