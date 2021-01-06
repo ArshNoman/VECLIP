@@ -102,3 +102,5 @@ exterior_angle(i_angle1, i_angle2)::
 pythagorean(a, b)::
     Returns the hypotenuse value of the triangle with the other 2 sides given as parameters.
 
+reverse_pythagorean(hypotenuse, x)::
+    Takes the hypotenuse and the other given line length as parameters and returns the third line's length.
