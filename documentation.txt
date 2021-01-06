@@ -92,3 +92,9 @@ v_rightcylindrical_cone(radius, height)::
 v_triangularprism(length, base, height)::
 	Returns the volume of a triangular prism with the length, base and height of the triangular prism as parameters.
 
+* * * * * * * * * *
+
+== Trigonometry ==
+
+exterior_angle(i_angle1, i_angle2)::
+    Takes in the other 2 interior angles of the triangle as parameters and returns the value of the exterior angle.
