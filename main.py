@@ -9,13 +9,13 @@ phi = 1.618033988749895
 eulars_number = 2.71828
 wallis_constant = 2.094551481542326
 
-# -- Basic operations --
+# -- Basic operations -- 4
 
 
 def add(number1, number2):
     if isinstance(number1 or number2, str):
         raise ValueError("strings cannot be taken as a parameter")
-    print(number1 + number2)
+    print(number1 + number1)
 
 def substract(number1, number2):
     if isinstance(number1 or number2, str):
@@ -32,7 +32,7 @@ def divide(number1, number2):
         raise ValueError("strings cannot be taken as a parameter")
     print(number1 / number2)
 
-# -- Exponential operations --
+# -- Exponential operations -- 5
 
 def power(base, exponent):
     if isinstance(base or exponent, str):
@@ -79,7 +79,7 @@ def cubert(number):
         raise ValueError("strings cannot be taken as a parameter")
     print(number ** (1. / 3))
 
-# -- Geometric functions --
+# -- Geometric functions -- 17
 
 
 def a_square(side_length):
@@ -167,7 +167,7 @@ def v_triangularprism(length, base, height):
         raise ValueError("strings cannot be taken as a parameter")
     print(length*base*height)
 
-# -- Trigonometry Functions --
+# -- Trigonometry Functions -- 9
 
 def exterior_angle(i_angle1, i_angle2):
     if i_angle2 < 0 or i_angle1 < 0:
@@ -202,4 +202,10 @@ def rad_cos(x):
 def rad_tan(x):
     print(math.tan(x))
 
-#  38 functions
+# -- Statistics --
+
+def mean(*args):
+    mean_list = list(args)
+    print(sum(mean_list)/len(mean_list))
+
+#  36 functions
