@@ -207,19 +207,31 @@ def rad_tan(x):
 
 def mean(*args):
     mean_list = list(args)
+    for term in mean_list:
+        if isinstance(term, str):
+            raise ValueError("strings cannot be taken as a parameter")
     print(sum(mean_list)/len(mean_list))
 
 def mode(*args):
     x = list(args)
+    for term in x:
+        if isinstance(term, str):
+            raise ValueError("strings cannot be taken as a parameter")
     print(m(x))
 
 def range(*args):
     x = list(args)
+    for term in x:
+        if isinstance(term, str):
+            raise ValueError("strings cannot be taken as a parameter")
     x.sort()
     print(x[-1] - x[0])
 
 def median(*args):
     x = list(args)
+    for term in x:
+        if isinstance(term, str):
+            raise ValueError("strings cannot be taken as a parameter")
     x.sort()
     print(x)
     if len(x) % 2 == 0:
