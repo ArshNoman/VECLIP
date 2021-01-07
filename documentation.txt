@@ -5,8 +5,8 @@ Welcome to VECLIP Official documentation
 add(number1, number2)::
 	Takes 2 parameters, integers only, and adds them together.
 
-substract(number1, number2)::
-	Takes 2 parameters, integers only, and substracts the second parameter from the first parameter.
+subtract(number1, number2)::
+	Takes 2 parameters, integers only, and subtracts the second parameter from the first parameter.
 	
 multiply(number1, number2)::
 	Takes 2 parameters, integers only, and multiplies them together.
@@ -57,7 +57,7 @@ a_rectangle(shortside_length, longside_length)::
 	Returns the area of a rectangle, takes the 2 parallel side lengths of the rectangle as parameters.
 
 p_rectangle(shortside_length, longside_length)::
-	Returns the perimeter of a rectable, takes the 2 parallel side lengths of the rectangle as parameters.     
+	Returns the perimeter of a rectangle, takes the 2 parallel side lengths of the rectangle as parameters.
 
 dgnl_square(side_length)::
 	Returns the diagnoal length of a square, takes in a side length as a parameter.    
@@ -69,7 +69,7 @@ a_circle(radius)::
 	Returns the area of a circle with the radius of the figure as a given parameter.
 
 c_circle(radius)::
-	Returns the cirucmference of a circle with the radius of the shape as a given parameter.
+	Returns the circumference of a circle with the radius of the shape as a given parameter.
 
 v_sphere(radius)::
     Returns the volume of a sphere with the radius of the sphere as a given parameter.
@@ -78,7 +78,7 @@ sa_circle(radius)::
     Returns the surface area of the sphere with the radius of the shape as a given parameter.
 
 sa_cuboid(width, length, height)::
-	Return the surface area of a cubiod with 3 given parameters, the width, length and height. 
+	Return the surface area of a cuboid with 3 given parameters, the width, length and height.
 
 sa_cylinder(radius, height)::
 	Returns the surface area of a cylinder with 2 parameters, the radius and height of the cylinder.

@@ -18,7 +18,7 @@ def add(number1, number2):
         raise ValueError("strings cannot be taken as a parameter")
     print(number1 + number1)
 
-def substract(number1, number2):
+def subtract(number1, number2):
     if isinstance(number1 or number2, str):
         raise ValueError("strings cannot be taken as a parameter")
     print(number1 - number2)
