@@ -239,4 +239,14 @@ def median(*args):
     else:
         print(x[int(len(x)/2)])
 
-#  39 functions
+# -- Electricity --
+
+def volts(watts=0, amperes=0, ohms=0):
+    if watts and amperes != 0:
+        print(watts/amperes)
+    elif watts and ohms != 0:
+        print((watts*ohms)**0.5)
+    elif ohms and amperes != 0:
+        print(amperes*ohms)
+
+#  40 functions
