@@ -213,5 +213,9 @@ def mode(*args):
     x = list(args)
     print(m(x))
 
+def range(*args):
+    x = list(args)
+    x.sort()
+    print(x[-1] - x[0])
 
-#  37 functions
+#  38 functions
