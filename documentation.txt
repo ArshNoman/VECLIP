@@ -138,3 +138,13 @@ range(*args)::
 
 median(*args)::
     Returns the average of a given set of integers, any length, as parameters.
+
+* * * * * * * * * *
+
+== Electricity ==
+
+volts(watts=0, amperes=0, ohms=0)::
+    Returns the volts value of a circuit with the 2 of the 3 parameters required. The should be passed as key value pairs.
+
+ohms(watts=0, amperes=0, volts=0)::
+    Returns the ohms value of a circuit with the 2 of the 3 parameters required. The should be passed as key value pairs.
