@@ -203,7 +203,7 @@ def rad_cos(x):
 def rad_tan(x):
     print(math.tan(x))
 
-# -- Statistics --
+# -- Statistics -- 4
 
 def mean(*args):
     mean_list = list(args)
@@ -239,22 +239,34 @@ def median(*args):
     else:
         print(x[int(len(x)/2)])
 
-# -- Electricity --
+# -- Electricity -- 2
 
 def volts(watts=0, amperes=0, ohms=0):
+    if isinstance(watts or amperes or ohms, str):
+        raise ValueError("strings cannot be taken as a parameter")
+    elif watts and amperes and ohms != 0:
+        raise ValueError("please fill only 2 out of 3 parameters")
     if watts and amperes != 0:
         print(watts/amperes)
     elif watts and ohms != 0:
         print((watts*ohms)**0.5)
     elif ohms and amperes != 0:
         print(amperes*ohms)
+    else:
+        raise ValueError("please provide the proper number parameters")
 
 def ohms(watts=0, amperes=0, volts=0):
+    if isinstance(watts or amperes or volts, str):
+        raise ValueError("strings cannot be taken as a parameter")
+    elif watts and amperes and volts != 0:
+        raise ValueError("please fill only 2 out of 3 parameters")
     if watts and amperes != 0:
         print(watts/(amperes*amperes))
     elif watts and volts != 0:
         print((volts*volts)/watts)
     elif volts and amperes != 0:
         print(volts/amperes)
+    else:
+        raise ValueError("please provide the proper number of parameters")
 
-#  40 functions
+#  41 functions
