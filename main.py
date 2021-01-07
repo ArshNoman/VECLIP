@@ -218,4 +218,13 @@ def range(*args):
     x.sort()
     print(x[-1] - x[0])
 
+def median(*args):
+    x = list(args)
+    x.sort()
+    print(x)
+    if len(x) % 2 == 0:
+        print((x[int(len(x)/2)]+x[int(len(x)/2)-1])/2)
+    else:
+        print(x[int(len(x)/2)])
+
 #  38 functions
