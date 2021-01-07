@@ -249,4 +249,12 @@ def volts(watts=0, amperes=0, ohms=0):
     elif ohms and amperes != 0:
         print(amperes*ohms)
 
+def ohms(watts=0, amperes=0, volts=0):
+    if watts and amperes != 0:
+        print(watts/(amperes*amperes))
+    elif watts and volts != 0:
+        print((volts*volts)/watts)
+    elif volts and amperes != 0:
+        print(volts/amperes)
+
 #  40 functions
