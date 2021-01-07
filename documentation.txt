@@ -122,3 +122,19 @@ rad_cos(x):
 
 rad_tan(x):
     Returns the RADIAN tangent value of the parameter x.
+
+* * * * * * * * * *
+
+== Statistics ==
+
+mean(*args)::
+    Returns the average of a given set of integers, any length, as parameters.
+
+mode(*args)::
+    Returns the mode of a given set of integers, any length, as parameters. WILL NOT WORK IF THERE ARE 2 MODES.
+
+range(*args)::
+   Returns the range of a given set of integers, any length, as parameters.
+
+median(*args)::
+    Returns the average of a given set of integers, any length, as parameters.

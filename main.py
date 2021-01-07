@@ -227,4 +227,4 @@ def median(*args):
     else:
         print(x[int(len(x)/2)])
 
-#  38 functions
+#  39 functions
