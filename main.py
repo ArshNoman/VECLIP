@@ -1,5 +1,6 @@
 # Very Easy Calculator Library In Python (VECLIP)
 
+from statistics import mode as m
 import math
 
 # -- Variables --
@@ -208,4 +209,9 @@ def mean(*args):
     mean_list = list(args)
     print(sum(mean_list)/len(mean_list))
 
-#  36 functions
+def mode(*args):
+    x = list(args)
+    print(m(x))
+
+
+#  37 functions
