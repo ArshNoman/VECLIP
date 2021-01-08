@@ -329,4 +329,18 @@ def substract_exp(base1, exp1, base2, exp2):
     else:
         print(base1, (exp1-exp2))
 
-#  45 functions
+def multiply_exp(base1, exp1, base2, exp2):
+    banned_list = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    if isinstance(base1 or base2, int or float):
+        raise ValueError("parameters base1 and base2 cannot be numbers")
+    if isinstance(exp1 or exp2, str):
+        raise ValueError("parameters exp1 and exp2 cannot be numbers")
+    for bad in banned_list:
+        if base1 == bad or base2 == bad:
+            raise ValueError("parameters base1 and base2 cannot be numbers")
+    if base2 != base1:
+        print(base1, exp1, base2, exp2)
+    else:
+        print(base1, (exp1 + exp2))
+
+#  46 functions
