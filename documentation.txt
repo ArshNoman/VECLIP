@@ -154,3 +154,11 @@ amperes(ohms=0, watts=0, volts=0)::
 
 watts(ohms=0, amperes=0, volts=0)::
     Returns the watts value of a circuit with the 2 of the 3 parameters required. The should be passed as key value pairs.
+
+* * * * * * * * * *
+
+== Algebra ==
+
+add_exp(base1, exp1, base2, exp2)::
+    Solves a binomial expression with no bases as numbers, only exponents. It adds the exponents of the terms if the bases are
+    the same. Else, it returns the inputted values.
