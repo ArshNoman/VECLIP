@@ -283,4 +283,18 @@ def watts(ohms=0, amperes=0, volts=0):
     else:
         raise ValueError("please provide the proper number of parameters")
 
-#  42 functions
+def amperes(ohms=0, watts=0, volts=0):
+    if isinstance(ohms or watts or volts, str):
+        raise ValueError("strings cannot be taken as a parameter")
+    elif ohms and watts and volts != 0:
+        raise ValueError("please fill only 2 out of 3 parameters")
+    if ohms and watts != 0:
+        print((watts/ohms)**0.5)
+    elif ohms and volts != 0:
+        print(volts/ohms)
+    elif volts and watts != 0:
+        print(watts/volts)
+    else:
+        raise ValueError("please provide the proper number of parameters")
+
+#  43 functions
