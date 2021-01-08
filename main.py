@@ -326,8 +326,13 @@ def substract_exp(base1, exp1, base2, exp2):
             raise ValueError("parameters base1 and base2 cannot be numbers")
     if base2 != base1:
         print(base1, exp1, base2, exp2)
-    else:
+    new_exp = exp1 - exp2
+    if new_exp > 0:
         print(base1, (exp1-exp2))
+    elif new_exp < 0:
+        print(f"1/{base1}{exp1 - exp2}")
+    else:
+        print(1)
 
 def multiply_exp(base1, exp1, base2, exp2):
     banned_list = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
