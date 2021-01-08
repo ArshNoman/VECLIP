@@ -40,6 +40,8 @@ def power(base, exponent):
         raise ValueError("strings cannot be taken as a parameter")
     is_negative = False
     b = base
+    if exponent == 0:
+        print(1)
     if exponent < 0:
         is_negative = True
         for x in range(1, abs(exponent)):
