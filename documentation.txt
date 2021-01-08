@@ -164,5 +164,9 @@ add_exp(base1, exp1, base2, exp2)::
     the same. Else, it returns the inputted values.
 
 substract_exp(base1, exp1, base2, exp2)::
-    Solves a binomial expression with no bases as numbers, only exponents. It subtracts. the exponents of the terms if the bases are
+    Solves a binomial expression with no bases as numbers, only exponents. It subtracts the exponents of the terms if the bases are
+    the same. Else, it returns the inputted values.
+
+multiply_exp(base1, exp1, base2, exp2)::
+    Solves a binomial expression with no bases as numbers, only exponents. It adds the exponents of the terms if the bases are
     the same. Else, it returns the inputted values.
