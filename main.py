@@ -241,7 +241,7 @@ def median(*args):
     else:
         print(x[int(len(x)/2)])
 
-# -- Electricity -- 2
+# -- Electricity -- 4
 
 def volts(watts=0, amperes=0, ohms=0):
     if isinstance(watts or amperes or ohms, str):
@@ -299,4 +299,20 @@ def amperes(ohms=0, watts=0, volts=0):
     else:
         raise ValueError("please provide the proper number of parameters")
 
-#  43 functions
+# -- Algebra -- 1
+
+def add_exp(base1, exp1, base2, exp2):
+    banned_list = ['0','1','2','3','4','5','6','7','8','9']
+    if isinstance(base1 or base2, int or float):
+        raise ValueError("parameters base1 and base2 cannot be numbers")
+    if isinstance(exp1 or exp2, str):
+        raise ValueError("parameters exp1 and exp2 cannot be numbers")
+    for bad in banned_list:
+        if base1 == bad or base2 == bad:
+            raise ValueError("parameters base1 and base2 cannot be numbers")
+    if base2 != base1:
+        print(base1, exp1, base2, exp2)
+    else:
+        print(base1, (exp1+exp2))
+
+#  44 functions
