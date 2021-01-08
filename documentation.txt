@@ -148,3 +148,6 @@ volts(watts=0, amperes=0, ohms=0)::
 
 ohms(watts=0, amperes=0, volts=0)::
     Returns the ohms value of a circuit with the 2 of the 3 parameters required. The should be passed as key value pairs.
+
+amperes(ohms=0, watts=0, volts=0)::
+    Returns the amperes value of a circuit with the 2 of the 3 parameters required. The should be passed as key value pairs.
