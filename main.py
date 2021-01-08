@@ -313,7 +313,7 @@ def add_exp(base1, exp1, base2, exp2):
     if base2 != base1:
         print(base1, exp1, base2, exp2)
     else:
-        print(base1, (exp1+exp2))
+        print(base1, (exp1*exp2))
 
 def substract_exp(base1, exp1, base2, exp2):
     banned_list = ['0','1','2','3','4','5','6','7','8','9']
